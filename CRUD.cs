@@ -11,7 +11,7 @@ namespace Program{
 			while (true){
 				Console.WriteLine("selecione uma opção: add, rem, edit, ver, sair");
 
-				string response = Console.ReadLine();
+				string response = Console.ReadLine().Trim();
 
 				switch (response){
 					case "add":
