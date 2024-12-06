@@ -11,7 +11,7 @@ namespace Program{
 			while (true){
 				Console.WriteLine("selecione uma opção: add, rem, edit, ver, sair");
 
-				string response = Console.ReadLine().Trim();
+				string response = Console.ReadLine().Trim().ToLower();
 
 				switch (response){
 					case "add":
@@ -31,11 +31,11 @@ namespace Program{
 						break;
 
 					case "sair":
-						Console.WriteLine("saindo...");
+						Console.WriteLine("Saindo...");
 						return;
 
 					default:
-						Console.WriteLine("default");
+						Console.WriteLine("Opção não existe");
 						break;
 				}
 
