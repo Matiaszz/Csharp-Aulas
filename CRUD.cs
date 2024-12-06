@@ -35,6 +35,7 @@ namespace Program{
 						return;
 
 					default:
+						Console.Clear();
 						Console.WriteLine("Opção não existe");
 						break;
 				}
